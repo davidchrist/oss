@@ -1,0 +1,18 @@
+Nama	: David Dwi Christian
+NIM	: G.231.17.0022
+
+1. Pastikan komputer / PC terkoneksi dengan internet
+2. Login via web github dengan username yang sudah didaftarkan
+3. Pilih NEW untuk membuat repository baru, beri nama repository yang ingin dibuat misal "PRAK-GIT2"
+4. Isi deskripsi, biarkan privasi repositorynya menjadi Public lalu pilih create repository lalu muncul quick setup salin link yang tertera di kolom 
+5. Buka terminal ketikkan git clone (link yang tertera misal:) https://github.com/davidchrist/PRAK-GIT2.git 
+6. Folder repository sudah di clone di direktori Home 
+7. Isi folder dengan file kita buat misalnya saya membuat file G231170001_PRAK-GIT2.txt
+8. Buka terminal lalu masuk ke direktori git yang sudah di clone, misal cd PRAK-GIT2
+9. Cek status dengan mengetikkan git status , apakah sudah ada perubahan atau belum 
+10. Jika sudah, ketikkan git add (nama file misal: ) G231170022_PRAK-GIT2.txt
+11. Cek lagi statusnya dengan mengetikkan git status, jika hijau berarti sudah
+12. Ketikkan git commit -m (nama file misal: ) G231170022_PRAK-GIT2.txt
+13. Cek lagi statusnya dengan perintah git status, sudah tidak ada lagi file yang termodifikasi yang belum di catat dan disimpan di dalam repository lokal.
+14. Lalu untuk mengirim file lokal ke repository di github ketikkan git push origin master , nanti diminta untuk memasukkan username dan passoword github yang kita gunakan
+15. Buka akun anda pada github.com lihat apakah file yang kita buat sudah terupload di github repository atau belum
